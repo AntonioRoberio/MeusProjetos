@@ -20,6 +20,7 @@
     border: 1px solid black;
     transition: all linear 0.9s;
     position: absolute;
+    z-index: 1;
 }
 
 .filho img{
@@ -35,6 +36,8 @@
     margin: auto;
     z-index: 100;
     background-color: rgba(128, 128, 128, 0.5);
+    top: 0px;
+    left: 0px;
 }
 
 .filho:hover img{
